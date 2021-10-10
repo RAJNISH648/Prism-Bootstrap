@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+body{
+    background-color: #dadada;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.wrapper{
+    width: 100%;
+    background: linear-gradient( 90deg, rgba(83, 82, 92, 1) 0%, rgba(105, 26, 140, 1) 100%, rgba(8, 28, 133, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 0;
+}
+.wrapper .left-1{
+    border-right: 2px solid grey;
+}
+.wrapper .left-1 h1{
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3.3rem;
+}
+.wrapper .right-1 p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: darkgrey;
+}
+.wrapper .right-1 button{
+    width: 9rem;
+    height: 2.2rem;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-color: rgb(7, 199, 151);
+    border: 0;
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 1.3rem;
+}
+
+/* two-section */
+.two-section{
+    width: 100%;
+    background-color: #fff;
+    padding: 5rem 0;
+    color: #000;
+}
+.two-section .left-2{
+    border-right: 2px solid grey;
+}
+.two-section .left-2 h2{
+    font-size: 2rem;
+}
+.two-section .left-2 p{
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    margin-top: 1.6rem;
+}
+.two-section .left-2 button{
+    width: 9rem;
+    height: 2.2rem;
+    color: #000;
+    font-family: 'Philosopher', sans-serif;
+    background: none;
+    border: 2px solid #dadada;
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 2.6rem;
+}
+.two-section .right-2 p{
+    font-size: 1.3rem;
+    line-height: 3.5rem;
+    text-align: left;
+}
+.two-section .right-2 span{
+    color:  rgb(7, 199, 151);
+}
+
+/* image-section */
+.image-section{
+    width: 100%;
+    padding: 4rem 0;
+    border-top: 2px solid grey;
+}
+.image-section .box{
+    margin: 2.5rem 0;
+    background-color: #fff;
+    border-bottom: 1px solid grey;
+}
+.box .image {
+    padding: 0;
+}
+.image img{
+    width: 100%;
+}
+.box .text{
+    padding: 4rem 2rem 0 2rem;
+}
+.box .text h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.box .text p{
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+    color: grey;
+}
+.box .text .my-button{
+    width: 9rem;
+    height: 2.2rem;
+    color: #000;
+    font-family: 'Philosopher', sans-serif;
+    background: none;
+    border: 2px solid #dadada;
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+.single .single-button{
+    width: 9rem;
+    height: 2.2rem;
+    color: #000;
+    font-family: 'Philosopher', sans-serif;
+    background: none;
+    border: 2px solid darkgrey;
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+/* last-section */
+.last-section{
+    width: 100%;
+    background-color: #fff;
+    padding: 5rem 0;
+}
+.left-3{
+    border-right: 2px solid grey;
+}
+.left-3 h2{
+    font-size: 2rem;
+}
+.left-3 p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    line-height: 1.8rem;
+    color: gray;
+}
+.left-3 form{
+    margin-top: 2rem;
+}
+.left-3 input{
+    width: 45%;
+    padding: 0.8rem 0  0.8rem  0.8rem;
+}
+.left-3 textarea{
+    width: 90%;
+   margin-top: 2rem;
+   padding: 1rem 0 0 1rem;
+}
+.left-3 button{
+    width: 9rem;
+    height: 2.2rem;
+    color: #000;
+    font-family: 'Philosopher', sans-serif;
+    background: none;
+    border: 2px solid #dadada;
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.right-3{
+    text-align: left;
+}
+.right-3 p{
+    color: grey;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
+.right-3 span{
+    color: rgb(7, 199, 151);
+    font-size: 1.3rem;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    border-top: 1px solid grey;
+    padding: 3rem 0;
+    color: grey;
+}
+.footer .copyright p{
+    font-size: 1.2rem;
+}
+
+/* media quries */
+
+@media only screen and (max-width:1200px){
+    .wrapper .left-1 h1{
+        font-size: 2.3rem;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .wrapper .left-1 h1{
+        font-size: 1.8rem;
+    }
+    .wrapper .right-1 p{
+        font-size: 1.2rem;
+    }
+    .two-section .left-2 h2{
+        font-size: 1.9rem;
+    }
+    .two-section .left-2 p{
+        font-size: 1rem;
+    }
+    .box .text{
+        padding: 1rem 2rem 0 2rem;
+    }
+    .box .text p{
+        margin-top: 1rem;
+    }
+    .box .text .my-button{
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .wrapper .left-1{
+        border-right: none;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .wrapper .right-1 {
+        border-top: 1px solid grey;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .two-section .left-2 {
+       text-align: center;
+       border-right: none;
+       padding-bottom: 2rem;
+    }
+    .two-section .right-2{
+        border-top: 1px solid grey;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .two-section .right-2 p{
+        text-align: center;
+    }
+    .box .text{
+        padding: 3rem 3rem;
+        text-align: center;
+    }
+    .box .text h3{
+        font-size: 1.3rem;
+    }
+    .box .text p{
+        font-size: 1rem;
+    }
+    .last-section .left-3{
+        text-align: center;
+        border-right: none;
+        padding-bottom: 2rem;
+    }
+    .last-section .right-3{
+        border-top: 1px solid grey;
+        padding: 2rem 0 0 2rem;
+    }
+    .left-3 p{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .right-3 p{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .footer .copyright p{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
+
+
+
+
+
+
+
+
+
